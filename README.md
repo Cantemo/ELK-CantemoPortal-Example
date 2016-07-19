@@ -7,7 +7,7 @@ It uses filebeat for log shipping to the Logstash server.
 ## Important notes!
 
 - This is not officially supported by Cantemo AB and intended as a resource to help setting up logging.
-- This has only been tested running on a separate server from Cantemo Portal. It's not supported to run ELK on the same server as Portal at this point in time. Please see the section below about running on same server as Portal.
+- This has only been tested running on a separate server from Cantemo Portal. It's not supported to run ELK on the same server as Portal at this point in time. Please see the section [running on same server as Portal](https://github.com/Cantemo/ELK-CantemoPortal-Example#running-on-the-same-server-as-portal) below for more information.
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ We will not cover the complete installation of the ELK stack in this guide as th
 - Using Docker: https://elk-docker.readthedocs.io
 - UnOfficial Guide: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04
 - Official Documentation: https://www.elastic.co/guide/index.html
-- 
+
 
 ## Running on the same server as Portal.
 
