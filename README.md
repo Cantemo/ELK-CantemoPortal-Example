@@ -1,6 +1,6 @@
-# ELK CantemoPortal Example Configuration
+# ELK Cantemo Portal Example Configuration
 
-This repo is an example configuration for setting up Cantemo Portal with ElasticSearch Logstash and Kibana (ELK stack) for logging. It is for the version 2.x of ELK and is untested with version 5.x
+This repo is an example configuration for setting up Cantemo Portal with ElasticSearch, Logstash and Kibana (ELK stack) for logging. It is for the version 2.x of ELK and is untested with version 5.x
 
 It uses filebeat for log shipping to the Logstash server.
 
