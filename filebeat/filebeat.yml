@@ -47,6 +47,10 @@ filebeat:
       document_type: portal-celery
     -
       paths:
+        - /var/log/elasticsearch/cantemosearch.log
+      document_type: elasticsearch
+    -
+      paths:
         - /var/log/vidispine/transcoder.log
       document_type: vidispine-transcoder
     -
